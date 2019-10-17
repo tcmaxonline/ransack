@@ -1,7 +1,7 @@
 require 'i18n'
 
 I18n.load_path += Dir[
-  File.join(File.dirname(__FILE__), 'locale'.freeze, '*.yml'.freeze)
+  File.join(File.dirname(__FILE__), 'locale'.freeze, 'es.yml'.freeze)
 ]
 
 module Ransack
